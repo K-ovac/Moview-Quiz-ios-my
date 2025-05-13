@@ -1,7 +1,5 @@
 import UIKit
 
-
-
 private struct QuizQuestion {
     
     let image: String
@@ -120,6 +118,8 @@ final class MovieQuizViewController: UIViewController {
         imageView.layer.borderColor = isCorrect ? UIColor.ypGreenIOS.cgColor : UIColor.ypRedIOS.cgColor
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
+            self.imageView.layer.borderWidth = 0
+            self.imageView.layer.borderColor = UIColor.clear.cgColor
             self.showNextQuestionOrResult()
         }
         

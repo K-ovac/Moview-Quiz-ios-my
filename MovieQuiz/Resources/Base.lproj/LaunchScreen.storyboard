@@ -23,10 +23,10 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="2Th-mf-NX4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Rpo-U0-Wgd"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2Th-mf-NX4" secondAttribute="trailing" id="Y8k-Ft-HEo"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="2Th-mf-NX4" secondAttribute="top" constant="118" id="biN-tN-OhM"/>
-                            <constraint firstItem="2Th-mf-NX4" firstAttribute="bottom" secondItem="Ze5-6b-2t3" secondAttribute="bottom" id="vjp-Ob-7ER"/>
+                            <constraint firstAttribute="bottom" secondItem="2Th-mf-NX4" secondAttribute="bottom" id="Rtw-mx-o53"/>
+                            <constraint firstItem="2Th-mf-NX4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="WKL-FW-Oxv"/>
+                            <constraint firstItem="2Th-mf-NX4" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="btU-uz-66f"/>
+                            <constraint firstItem="2Th-mf-NX4" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tNW-Ye-yAQ"/>
                         </constraints>
                     </view>
                 </viewController>
